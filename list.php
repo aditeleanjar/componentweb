@@ -35,8 +35,11 @@
             color: #fff;
         }
         .btn-custom{
-            background-color:#f20580 ;
+            background-color:#1f19d1 ;
             color: #fff;
+        }
+        .text-custom{
+            color: #ed058c;
         }
     </style>
 </head>
@@ -63,7 +66,7 @@
                                 </div>
                             </div>
                             <div class="p-2 bd-highlight">
-                                <span class="text-secondary">Lorem Ipsum</span>
+                                <span class="text-custom">Lorem Ipsum</span>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry....
                                 </p>
