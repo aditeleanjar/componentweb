@@ -40,6 +40,7 @@
         }
         .text-custom{
             color: #ed058c;
+            font-weight: bold;
         }
     </style>
 </head>

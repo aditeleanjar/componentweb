@@ -72,7 +72,7 @@
         <div class="row mt-2">
             <div class="col-md-12">
                 <div class="jumbotron custom-jumbo">
-                    <h1 class="text-center custom-font">PHP untuk pemula - PROJECT TODOLIST</h1>
+                    <h1 class="text-center custom-font">Lorem Ipsum</h1>
                     <div class="embed-responsive embed-responsive-21by9 shadow" id="video-custom">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
@@ -86,7 +86,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
-                                <span class="text-white">Dibuat oleh : Administrator</span>
+                                <span class="text-white">Dibuat oleh : lipsum</span>
                             </div>
                             <div class="col-md-3">
                                 <span class="text-white">Tipe Kelas : Gratis</span>
@@ -122,7 +122,9 @@
                 <!-- Tab panes -->
                 <div class="tab-content mt-2">
                     <div class="tab-pane container active" id="desc">
-                        <span>Membuat aplikasi TODOLIST dengan menggunakan PHP Native Database MYSQL .</span>
+                        <span>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </span>
                     </div>
                     <div class="tab-pane container fade" id="kontent">
                         <ul class="list-group">
