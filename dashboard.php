@@ -21,16 +21,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <div class="card-title">Hello Your Name</div>
-                        <h1 class="text-primary">Lorem Ipsum</>
+                        <div class="card-title">Hello lorem ipsum</div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card text-center">
                     <div class="card-body">
-                        <div class="card-title">You Statistic</div>
-                        <h1 class="text-primary">4</h1>
+                        <div class="card-title">You Course 4</div>
                     </div>
                 </div>
             </div>
@@ -59,10 +57,12 @@
             </div>
         </div>
 
+     
+
         <div class="row mt-3">
             <div class="col-md-12">
                 <table class="table table-striped">
-                    <thead class="table-dark">
+                    <thead class="table-dark text-center">
                         <tr>
                             <th>Banner</th>
                             <th>Title</th>
@@ -72,7 +72,7 @@
                     </thead>
                     <tbody>
                         <?php for($i=1;$i<=5;$i++): ?>
-                            <tr>
+                            <tr class="text-center">
                                 <td>
                                     <div class="text-center">
                                     <img src="img/2.jpg" class="img-fluid" alt="image" style="height: 50px;" />
@@ -81,7 +81,7 @@
                                 <td>Google Certificate Exam</td>
                                 <td>200</td>
                                 <td>
-                                    <button class="btn btn-block btn-dark">view</button>
+                                    <button class="btn  btn-dark">learn</button>
                                 </td>
                             </tr>
                         <?php endfor; ?>
@@ -89,6 +89,8 @@
                 </table>
             </div>
         </div>
+
+        
 
        
     </div>
