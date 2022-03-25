@@ -16,30 +16,81 @@
 
 
 
-    <div class="page-content page-container" id="page-content">
-        <div class="padding">
-            <div class="row">
-                <div class="col-lg-12 grid-margin stretch-card">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Basic carousel</h4>
-                            
-                                <div class="owl-carousel">
-                                    <div class="item"> <img src="img/1.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/2.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/3.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/4.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/5.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/6.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/7.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/8.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                    <div class="item"> <img src="img/9.jpg" alt="image" style="height: 200px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
-                                </div>
-                        </div>
+    <div class="container" >
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">Hello Your Name</div>
+                        <h1 class="text-primary">Lorem Ipsum</>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-title">You Statistic</div>
+                        <h1 class="text-primary">4</h1>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row mt-3">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">List Data</h4>
+                        
+                            <div class="owl-carousel">
+                                <div class="item"> <img src="img/1.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/1.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/1.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/2.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/3.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/4.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/5.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/6.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/7.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/8.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                                <div class="item"> <img src="img/9.jpg" alt="image" style="height: 170px;" /> <span class="text-seondary">lorem ipsum dolor sit amet</span> </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Banner</th>
+                            <th>Title</th>
+                            <th>Modul</th>
+                            <th>Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php for($i=1;$i<=5;$i++): ?>
+                            <tr>
+                                <td>
+                                    <div class="text-center">
+                                    <img src="img/2.jpg" class="img-fluid" alt="image" style="height: 50px;" />
+                                    </div>
+                                </td>
+                                <td>Google Certificate Exam</td>
+                                <td>200</td>
+                                <td>
+                                    <button class="btn btn-block btn-dark">view</button>
+                                </td>
+                            </tr>
+                        <?php endfor; ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+       
     </div>
     
 
